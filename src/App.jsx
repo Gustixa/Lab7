@@ -1,10 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import Cuadro from './componentes/Cuadro'
+import Letters from './componentes/Letters'
+import Search from './componentes/Search'
+import SideBar from './componentes/SideBar'
 
 function App() {
     return (
     <div className="App">
+        <SideBar/>
         <nav className='menu-toggle'>
             <div className='menu-toggle'>
                 <span className='menu-icon'></span>
@@ -18,14 +22,17 @@ function App() {
         </nav>
         <div>
             <a href="https://duckduckgo.com/" target="_blank">
-            <img src='./duckduckgologo.svg' className="logo react" alt="React logo" />
+            <img src='./duckduckgologo.svg' className="logo react" alt="React logo" />          
+            <Letters
+                text="DuckDuckGo"
+            />  
             </a>
         </div>
         
-        <input type="text" placeholder="Busca en la red sin que te rastreen" className="input"/>
-        <input type="submit" className="submit" img='search'/>
+        <Search/>
+
         <h1>¿Cansado de que te rastreen? Podemos ayudarte.</h1>
-        <h3>Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</h3>
+        <p>Consigue protección continua y gratuita para tu privacidad en el navegador con una descarga:</p>
         
         <ul className='ul benefits'>
             <li>Búsqueda Privada</li>
@@ -33,7 +40,7 @@ function App() {
             <li>Encriptación De Sitios</li>
         </ul>
         
-        <button type='submit' className='btn Add'>Add DuckDuckGo to Brave</button>
+        <button type='submit' className='btn Add' >Añadir DuckDuckGo a Firefox</button>
         <h6>¡Con la confianza de decenas de millones de personas en todo el mundo!</h6>
         <h4>Protección de la Privacidad para Cualquier Dispositivo</h4>
 

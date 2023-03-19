@@ -1,0 +1,31 @@
+.nav-bar{
+    position: absolute;
+    right: 0px;
+    width: 230px;
+    height: 705px;
+    transition: 0.800s ease;
+    text-align: start;
+    background-color: #282828;
+}
+
+h5{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#link{
+    color: white;
+}
+
+#section-tittle{
+    color: gray;
+    font-size: 12px;
+}
+
+.nav-item{
+    display: flex;
+}
+
