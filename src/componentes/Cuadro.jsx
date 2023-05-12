@@ -16,7 +16,7 @@ function Cuadro ({ tittle, image, description, link, linkdata }) {
   )
 }
 
-Cuadro.propType = {
+Cuadro.propTypes = {
   tittle: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

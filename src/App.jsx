@@ -1,4 +1,4 @@
-import { useState, React } from 'react'
+import { React } from 'react'
 import './App.css'
 import Cuadro from './componentes/Cuadro'
 import Letters from './componentes/Letters'

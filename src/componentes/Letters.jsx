@@ -10,7 +10,7 @@ function Letters ({ text }) {
   )
 }
 
-Letters.propType = {
+Letters.propTypes = {
   text: PropTypes.string.isRequired
 }
 
